@@ -8,8 +8,8 @@ from user import User
 
 class ExpenseFactory:
 
+    @staticmethod
     def create_expense(
-        self,
         expense_type: ExpenseType,
         amount: float,
         user: User,
